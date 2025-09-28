@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        Intent in = new Intent(this, calculate.class);
+        Intent in = new Intent(this, MainActivity2.class);
         in.putExtra("aa", a);
         in.putExtra("bb", b);
         in.putExtra("cc", c);
