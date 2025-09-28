@@ -35,19 +35,22 @@
         android:id="@+id/btRand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="rand"
+        android:layout_marginStart="160dp"
         android:onClick="rand"
-        app:layout_constraintTop_toBottomOf="@id/num3"
-        app:layout_constraintStart_toStartOf="parent"/>
+        android:text="rand"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/num3" />
 
     <Button
         android:id="@+id/btGo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="go"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="8dp"
         android:onClick="calc"
-        app:layout_constraintTop_toBottomOf="@id/btRand"
-        app:layout_constraintStart_toStartOf="parent"/>
+        android:text="go"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btRand" />
 
     <TextView
         android:id="@+id/tvAns"
